@@ -11,7 +11,7 @@ Let's start with a simple two-dimensional demonstration.
 The code below is heavily annotated to explain what each step does.
 
 ```jldoctest cookbook; filter=[r"Planning.*", r"Progress.*"]
-using FileIO, Images, Unitful, StaticArrays, ProgressMeter
+using FileIO, Images, Unitful, StaticArrays, ProgressMeter, ImageCore, TestImages
 using AxisArrays: Axis, AxisArray
 using BlockRegistration
 using RegisterMismatch  # no CUDA
